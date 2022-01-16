@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<title>Mini Tower of Babel</title>
+		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		<script src="script.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<div class="jogo">
+		
+			<div class="babel">
+			
+				<div class="babel_center">
+					<div class="row_left">
+						<div class="espaco"></div>
+						<div class="quadrado azul"></div>
+						<div class="espaco"></div>
+						<div class="quadrado branco"></div>
+						<div class="espaco"></div>
+						<div class="quadrado verde"></div>
+						<div class="espaco"></div>
+						<div class="quadrado pink"></div>
+						<div class="espaco"></div>
+						<div class="quadrado vermelho"></div>
+						<div class="espaco"></div>
+						<div class="quadrado amarelo"></div>
+					</div>
+					<div class="row_center">
+						<div class="espaco"></div>
+						<div class="quadrado azul"></div>
+						<div class="espaco"></div>
+						<div class="quadrado branco"></div>
+						<div class="espaco"></div>
+						<div class="quadrado verde"></div>
+						<div class="espaco"></div>
+						<div class="quadrado pink"></div>
+						<div class="espaco"></div>
+						<div class="quadrado vermelho"></div>
+						<div class="espaco"></div>
+						<div class="quadrado amarelo"></div>
+					</div>
+					<div class="row_right">
+						<div class="espaco"></div>
+						<div class="quadrado azul"></div>
+						<div class="espaco"></div>
+						<div class="quadrado vazio"></div>
+						<div class="espaco"></div>
+						<div class="quadrado verde"></div>
+						<div class="espaco"></div>
+						<div class="quadrado pink"></div>
+						<div class="espaco"></div>
+						<div class="quadrado vermelho"></div>
+						<div class="espaco"></div>
+						<div class="quadrado amarelo"></div>
+					</div>
+				</div>
+			
+			</div>
+		
+		</div>
+		
+		<div style="clear: both"></div>
+		
+		<hr>
+		
+		<table id="opcoes">
+			<tr>
+				<td colspan="2"><button id="embaralhar">Embaralhar ( O )</button></td>
+				<td colspan="2"><button id="resolver">Resolver ( P )</button></td>
+			</tr>
+			<tr>
+				<td><button id="esq_cima">Esquerda Cima ( A )</button></td>
+				<td><button id="cen_cima">Centro Cima ( S )</button></td>
+				<td><button id="dir_cima">Direita Cima ( D )</button></td>
+				<td><button id="virar_cima">Virar Para Cima ( F )</button></td>
+			</tr>
+			<tr>
+				<td><button id="esq_baixo">Esquerda Baixo ( Z )</button></td>
+				<td><button id="cen_baixo">Centro Baixo ( X )</button></td>
+				<td><button id="dir_baixo">Direita Baixo ( C )</button></td>
+				<td><button id="virar_baixo">Virar Para Baixo ( V )</button></td>
+			</tr>
+			<tr>
+				<td><button id="esquerda">Esquerda ( &larr; )</button></td>
+				<td><button id="direita">Direita ( &rarr; )</button></td>
+			</tr>
+			<tr>
+				<td><label><input checked id="animate" type="checkbox">Animação</label></td>
+				<td><label><input id="sempre_mover" type="checkbox">Sempre mover</label></td>
+				<td><label><input id="godmode" type="checkbox">Mostrar todas as faces</label></td>
+				<td></td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
